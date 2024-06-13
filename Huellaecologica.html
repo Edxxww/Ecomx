@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Huella ecologica</title>
+	<style type="text/css">
+		.img_logo{
+			width: 90px;
+			height: 90px;
+		}
+/*	le da tamaño al logo de la barra de navegacion*/
+
+		body{
+            background-color:#4AA79C;
+		}
+/*		pone el color de fondo*/
+		.h1_titulo_bs{
+			width: 900px;
+			height: 40px;
+			border-radius: 50px;
+			border: double;
+			background-color: beige;
+            font-family: cursive;
+            font-size: 30px;
+		}
+/*		titulos*/
+		.info_bs{
+			font-family: cursive;
+			font-size: 18px;
+      border: solid;
+      border-color: black;
+      border-radius: 15px;
+      background-color: beige;
+		}
+		.subt_bs{
+			font-family: cursive;
+
+		}
+		
+		*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: "Open Sans", sans-serif;
+}
+.interior{
+	max-width: 100%;
+	padding: 0 10px;
+	margin: auto;
+
+}
+
+header{
+	width: 100%;
+	height: 90px;
+	background-color: #248179;
+	position: fixed;
+
+}
+
+.interior{
+	max-width: 100%;
+	padding: 0 10px;
+	margin: auto;
+}
+
+.navegacion{
+	float: right;
+	display: flex;
+	align-items: center;
+	min-height: 90px;
+	z-index: 1000;
+}
+    
+.navegacion ul{
+list-style: none;
+padding: 0 10px;
+}
+
+.navegacion ul li{
+	display: inline-block;
+	position: relative;
+	transition: .3s linear;
+	z-index: 1000;
+}
+
+.navegacion ul li:hover{
+	transform: scale(1.1);
+}
+.navegacion ul li a{
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+padding: 12px 20px;
+transition: .3s linear;
+}
+
+.navegacion ul li a:hover{
+color: #B8DEEC;
+transform: scale(1.1);
+}
+
+.navegacion ul li:hover .hijos{
+display: block;
+}.navegacion .submenu .hijos{
+display: none;
+background:#131A2A;
+position: absolute;
+width: 100%;
+}
+
+.navegacion .submenu .hijos li{
+display: block;
+overflow: hidden;
+border-bottom: none;
+}
+
+.inx1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+.inx2{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #131A2A;
+    padding: 10px;
+
+}
+.mpp{
+    height: 300px;
+    width: 700px;
+    padding-right: 10%;
+}
+
+
+</style>
+</head>
+<body>
+	<header>
+	<!-- este header contiene la barra de navegación-->
+    <div class="interior">
+        <a><img class="img_logo" src="img/logorf.png"></a>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li class="submenu">
+                <a href="Huellahidrica.html">Huella hidrica</a>
+              
+                </li>
+                <li class="submenu">
+                    <a href="Huellaecologica.html">Huella ecologica</a>
+                   
+                </li>
+                <li class="submenu">
+                <a href="Calentamientoglobal.html">Calentamiento global</a>
+               
+                </li>
+                <li class="submenu">
+                <a href="Energiasrenovables.html">Energias renovables</a>
+                </li>
+              <li class="submenu_contacto">
+              	<a class="contacto_btn" href="Contactanos.html">contactanos</a>
+              </li> 
+            </ul>
+        </nav>
+    </div>
+</header>
+<br><br><br><br><br>
+<h1 class="inx1">Huella ecologica</h1>
+<br>
+<br>
+<p class="inx2">La huella ecológica (del inglés ecological footprint) es un concepto creado
+     por William Rees y su entonces alumno Mathis Wackernagelmen 1996, que analiza los 
+     patrones de consumo de recursos y la producción de desechos de una población determinada;
+      los dos se expresan en áreas productivas necesarias para mantener tales servicios.
+       La huella muestra el<br>cálculo de recursos específicos. 
+    <br>
+    <br>Mide la superficie necesaria (calculada en hectáreas) para producir los recursos
+     consumidos por un ciudadano, una actividad,<br> país, ciudad o región, etc, así como la
+      necesaria para absorber los residuos que genera, independientemente de donde estén
+       localizadas estas áreas.
+       <br>
+       <br>
+       Se trata de un indicador para conocer la sostenibilidad de las actividades humanas. La ventaja que presenta es la posibilidad de realizar comparaciones.</p>
+       <br>
+       <br>
+       <h1 class="inx1">Como se calcula</h1> 
+       <br>
+       <br>
+       <p class="inx2" >La huella ecológica se mide en hectáreas globales (hag) por habitante y año, es decir, cuantificando el impacto de la actividad humana 
+        sobre el entorno. Funciona mediante un cálculo que se hace a partir de los hábitos cotidianos de cada personas en relación con la capacidad de la naturaleza 
+        para renovar sus recursos.<br><br>Dicho de otro modo, calcula el total de superficie ecológica que se requiere para producir lo que consumes y a su vez, calcula
+         la superficie necesaria para absorber los residuos que generas (Tovar, 2019). Tal y como indica el Fondo Mundial para la Naturaleza (en inglés World Wide
+          Fund for Nature - WWF), el objetivo de medir tu huella ecológica es que cada ciudadano de cada país identifiques las acciones que pueden afectar al planeta.  </p>
+          <br>
+          <br>
+          <div>
+            <img class="mpp" src="mapa.png" style="float:right;" > 
+       
+            
+            <div> <h1 class="inx1">Deficit o superavit ecologico nacional</h1> 
+            <p class="inx2" >Medido como la biocapacidad por persona de un país (en hectáreas globales) 
+                <br>menos su huella ecológica por persona (también en hectáreas globales). 
+                <br>Datos del 2013 en la siguiente imagen</p>
+            </div> 
+          </div>
+       
+</body>
+
+
+</html>
