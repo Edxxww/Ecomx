@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contactanos</title>
+    <style type="text/css">
+        .img_logo{
+            width: 200px;
+            height: 100px;
+        }
+
+        body{
+            background-color:#4AA79C;
+             }
+        /*barra de navegacion*/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+font-family: "Open Sans", sans-serif;
+}
+.interior{
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    background-color: #248179;
+    position: fixed;
+
+}
+.interior{
+    max-width: 100%;
+    padding: 0 10px;
+    margin: auto;
+}
+.navegacion{
+    float: right;
+    display: flex;
+    align-items: center;
+    min-height: 90px;
+    z-index: 1000;
+}
+.navegacion ul{
+list-style: none;
+padding: 0 10px;
+}
+.navegacion ul li{
+    display: inline-block;
+    position: relative;
+    transition: .3s linear;
+    z-index: 1000;
+}
+.navegacion ul li:hover{
+    transform: scale(1.1);
+}
+.navegacion ul li a{
+color: #ffffff;
+text-align: center;
+text-transform: uppercase;
+font-size: 14px;
+font-weight: bold;
+padding: 12px 20px;
+transition: .3s linear;
+}
+.navegacion ul li a:hover{
+color: #B8DEEC;
+transform: scale(1.1);
+}
+.navegacion ul li:hover .hijos{
+display: block;
+}
+.navegacion .submenu .hijos{
+display: none;
+background:#9283CC;
+position: absolute;
+width: 100%;
+}
+.navegacion .submenu .hijos li{
+display: block;
+overflow: hidden;
+border-bottom: none;
+}
+.navegacion .submenu .hijos li a{
+display: block;
+}
+h1{
+	color: lightseagreen;
+     }
+     p{
+	color: white;
+     }
+     h2{
+	color: lightseagreen;
+     }
+     h3{
+	color: lightseagreen;
+     }
+     .redse{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+     }
+     .bott1 {
+padding: 1.3em 3em;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 2.5px;
+font-weight: 500;
+color: #000;
+background-color: #fff;
+border: none;
+border-radius: 45px;
+box-shadow: Opx 8px
+15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s
+ease 0s;
+cursor: pointer;
+outline: none;
+position: static;
+
+}
+.bott1:hover{
+    background: linear-gradient(to top, #ffffff, #1fadff);
+box-shadow: Opx 15px 20px
+rgba(46, 229, 157, 0.4);
+color: #fff;
+transform: translateY(-7px);
+
+}
+.bott1:active {
+transform: translateY(-1px);
+}
+.bott1{
+    color: #000;
+}
+.bott2 {
+padding: 1.3em 3em;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 2.5px;
+font-weight: 500;
+color: #000;
+background-color: #fff;
+border: none;
+border-radius: 45px;
+box-shadow: Opx 8px
+15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s
+ease 0s;
+cursor: pointer;
+outline: none;
+position: static;
+
+}
+.bott2:hover{
+background-color: #168a20;
+box-shadow: Opx 15px 20px
+rgba(46, 229, 157, 0.4);
+color: #fff;
+transform: translateY(-7px);
+background: linear-gradient(to top, #bd35fc, #ffba5f);
+
+}
+.bott2:active {
+transform: translateY(-1px);
+}
+.bott2{
+    color: #000;
+}
+.bott3{
+padding: 1.3em 3em;
+font-size: 12px;
+text-transform: uppercase;
+letter-spacing: 2.5px;
+font-weight: 500;
+color: #000;
+background-color: #fff;
+border: none;
+border-radius: 45px;
+box-shadow: Opx 8px
+15px rgba(0, 0, 0, 0.1);
+transition: all 0.3s
+ease 0s;
+cursor: pointer;
+outline: none;
+position: static;
+color: #ffffff;
+
+}
+.bott3:hover{
+    background: linear-gradient(to top, #302e2e, #ffffff);
+box-shadow: Opx 15px 20px
+rgba(46, 229, 157, 0.4);
+color: #fff;
+transform: translateY(-7px);
+
+}
+.bott3:active {
+transform: translateY(-1px);
+}
+.bott3{
+    color: #000;
+}
+.inx1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 5px;
+
+}
+
+.inx2{
+    font-size: 35px;
+    font-family: sans-serif;
+    color: #131A2A;
+    padding: 10px;
+
+}
+.inx3{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #131A2A;
+    padding: 10px;
+
+}
+.img_logo{
+			width: 90px;
+			height: 90px;
+		}
+        
+    </style>
+</head>
+<body>
+	<header>
+    <div class="interior">
+        <a><img class="img_logo" src="img/logorf.png"></a>
+        <nav class="navegacion">
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li class="submenu">
+                <a href="Huellahidrica.html">Huella hidrica</a>
+              
+                </li>
+                <li class="submenu">
+                    <a href="Huellaecologica.html">Huella ecologica</a>
+                   
+                </li>
+                <li class="submenu">
+                <a href="Calentamientoglobal.html">Calentamiento global</a>
+               
+                </li>
+                <li class="submenu">
+                <a href="Energiasrenovables.html">Energias renovables</a>
+                </li>
+              <li class="submenu_contacto">
+              	<a class="contacto_btn" href="Contactanos.html">contactanos</a>
+              </li> 
+            </ul>
+        </nav>
+    </div>
+</header>
+<br><br><br><br><br><br>
+<h1 class="inx1" >Contactanos</h1>
+<br>
+<h2 class="inx2" >¿Necesitas Ayuda? ¡Contáctanos!</h2><br>
+<p class="inx2" >
+
+
+
+¡Estamos aquí para ayudarte en cada paso de tu viaje de aprendizaje sobre la ecologia!
+ Si tienes preguntas, sugerencias o reportar algun error en la pagina,
+  no dudes en ponerte en contacto con nosotros.<br><br>Nuestro equipo de expertos está listo para atenderte.<br><br>
+  <h3 class="inx2">Correo electrónico:</h3><br>
+<p class="inx2" >Puedes enviarnos un correo electrónico a Eco_mx@gmail.com y te responderemos en un plazo de 24 horas.</p>
+<br><br>
+<h2 class="inx2" >Redes Sociales:</h2><br>
+<p class="inx2" >¡Síguenos en nuestras redes sociales para estar al tanto de las últimas noticias, actualizaciones y consejos de ecologia!<p></p><br><br>
+<center>
+<div class="redse">
+ <div><h3 class="inx2" >Facebook</h3><br>   <br><br><br>  <button class="bott1"> <a class="inx3" href="https://www.facebook.com/eduardo.emmanuel.1217?mibextid=ZbWKwL"> Eco_mx</a></button>     </div>
+ <div><h3 class="inx2" >Instagram</h3><br><br><br><br>  <button class="bott2"> <a class="inx3"href="https://www.instagram.com/learntoprogram=cTZmcm93YzhhYTA0"> Eco_mx </a></button>    </div>
+ <div><h3 class="inx2" >X</h3><br><br><br><br>           <button class="bott3"> <a class="inx3" href="https://x.com/learntoprogram=90V6qKwzCI4zRgXvd3Ziqw&s=09"> Eco_mx</a></button>    </div>
+ </div>
+</center>
+
+                   
+                </p>
+                    
+                <br>
+                <br>
+                <h2></h2>
+
+</body>
+</html>
